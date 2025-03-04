@@ -5,7 +5,7 @@ const cors = require("cors");
 
 mongoose
   .connect(
-    "mongodb+srv://rajendra:<Raj@710102>@fabricastore.mxq7j.mongodb.net/"
+    "mongodb+srv://rajendra:<db_password>@fabricastore.mxq7j.mongodb.net/"
   )
   .then(() => console.log("connected to mongodb"))
   .catch((err) => console.log(err));
